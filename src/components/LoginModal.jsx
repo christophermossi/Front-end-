@@ -8,7 +8,7 @@ const LoginModal = ({ show, onClose, setCurrentPage, onLoginSuccess }) => {
   const [password, setPassword] = useState("");
   const [userId, setUserId] = useState("");
   const [message, setMessage] = useState("");
-  const backendUrl = "https://backend-48ig.onrender.com";
+  const backendUrl = "http://localhost:3000";
 
   if (!show) return null;
 
