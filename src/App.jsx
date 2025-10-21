@@ -23,7 +23,7 @@ const App = () => {
     firstName: '', lastName: '', email: '', phone: '', address: '', city: '', postalCode: ''
   });
 
-  const backendUrl = 'http://localhost:3000';
+  const backendUrl = 'https://backend-48ig.onrender.com';
 
   // Fetch products from backend
   useEffect(() => {
